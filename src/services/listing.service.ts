@@ -27,4 +27,4 @@ class ListingDataService {
     }
 }
 
-export default ListingDataService
+export default new ListingDataService()
