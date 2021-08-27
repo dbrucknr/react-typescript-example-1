@@ -47,7 +47,7 @@ export default class CreateListing extends Component<Props, State> {
                 submitted: true
             });
         } catch (error) {
-            console.error('A System error has occurred', error)
+            console.error('A System error has occurred', error);
         }
     };
 
