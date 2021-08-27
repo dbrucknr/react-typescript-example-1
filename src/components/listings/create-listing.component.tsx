@@ -22,15 +22,11 @@ export default class CreateListing extends Component<Props, State> {
     }
 
     onChangeTitle(e: ChangeEvent<HTMLInputElement>) {
-        this.setState({
-          title: e.target.value
-        });
+        this.setState({ title: e.target.value });
     };
     
     onChangeDescription(e: ChangeEvent<HTMLInputElement>) {
-        this.setState({
-            description: e.target.value
-        });
+        this.setState({ description: e.target.value });
     };
 
     async saveListing() {
